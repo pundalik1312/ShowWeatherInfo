@@ -18,9 +18,18 @@ namespace ShowWeatherInfo.Pages
             {
                 errLabel.Visible = false;
                 errLabel.Text = "";
-                string City = txtCity.Text;
+                string CityCodeText = txtCity.Text;
+                if(int.TryParse(CityCodeText, out int zipcode))
+                {
+                    CityCodeText = "zip=" + zipcode.ToString();
+                }
+                else
+                {
+                    CityCodeText="q="+CityCodeText;
+                }
+
                 string appId = "384885c28ad209a656b006c2f7b8c1fa";
-                var url = string.Format("http://api.openweathermap.org/data/2.5/weather?q={0}&units=metric&cnt=1&APPID={1}", City, appId);
+                var url = string.Format("http://api.openweathermap.org/data/2.5/weather?{0}&units=metric&cnt=1&APPID={1}", CityCodeText, appId);
                 using (WebClient client = new WebClient())
                 {
                     try
