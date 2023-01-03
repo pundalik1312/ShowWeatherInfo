@@ -47,7 +47,9 @@ namespace ShowWeatherInfo.Pages
                         //Converting to OBJECT from JSON string.  
                         if (json != string.Empty)
                         {
+                            //assiging to object
                             RootObject weatherInfo = (new JavaScriptSerializer()).Deserialize<RootObject>(json);
+                            //assiging to controls from form
                             lblCountry.Text = weatherInfo.sys.country;
                             lblCity.Text = weatherInfo.name;
                             lblLat.Text = Convert.ToString(weatherInfo.coord.lat);
