@@ -38,7 +38,11 @@
                     <td>
                         <strong>City: </strong>
                         <asp:Label runat="server" ID="lblCity"></asp:Label>
-                        ,    
+                        </td>
+                    </tr>
+                <tr>
+                    <td>
+                        <strong>Country: </strong>
                         <asp:Label runat="server" ID="lblCountry"></asp:Label>
                     </td>
                 </tr>
