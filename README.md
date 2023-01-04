@@ -26,12 +26,14 @@ Code:
 ShowWeather.aspx is a Home page of web application which takes city or zip code as input and after clicking on "Show Weather" Button it invokes API from https://openweathermap.org/ to get current weather information
 
 API: http://api.openweathermap.org/data/2.5/weather
+
 Parameter: 
-q : is to invoke weather info as per city name 
 
-zip : is to invoke weather info as per Zip code 
+        q : is to invoke weather info as per city name 
 
-APPID : Security token to authenticate API
+        zip : is to invoke weather info as per Zip code 
+
+        APPID : Security token to authenticate API
  
  JSON Receiving after invoke:
         ********************//  
