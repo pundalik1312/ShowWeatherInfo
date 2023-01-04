@@ -1,32 +1,32 @@
 # ShowWeatherInfo
 
-        Technology: C#. net, Asp.net web forms 
+Technology: C#. net, Asp.net web forms 
 
-        Hosted on : Azure web app
+Hosted on : Azure web app
 
-        Dev-ops pipeline: Azure dev-ops
+Dev-ops pipeline: Azure dev-ops
 
-        Weather API: https://openweathermap.org/
+Weather API: https://openweathermap.org/
 
-        Code Repository: Git Hub
+Code Repository: Git Hub
 
-        Demo Web site: https://showweather.azurewebsites.net/
+Demo Web site: https://showweather.azurewebsites.net/
 
-        Browse https://showweather.azurewebsites.net/
+Browse https://showweather.azurewebsites.net/
 
-        ![image](https://user-images.githubusercontent.com/47704111/210596975-e865ce80-85f3-463b-9669-6ce55eef25eb.png)
+![image](https://user-images.githubusercontent.com/47704111/210596975-e865ce80-85f3-463b-9669-6ce55eef25eb.png)
 
-        Enter City name or zip code to get current weather information 
+Enter City name or zip code to get current weather information 
 
-        ![image](https://user-images.githubusercontent.com/47704111/210601813-9e102adc-27e4-4042-8408-4f5ca074e80c.png)
-
-       
-
-        ![image](https://user-images.githubusercontent.com/47704111/210601586-9ac31d29-118f-40c9-95ec-af40915d9691.png)
+![image](https://user-images.githubusercontent.com/47704111/210601813-9e102adc-27e4-4042-8408-4f5ca074e80c.png)
 
 
 
-#Code:
+![image](https://user-images.githubusercontent.com/47704111/210601586-9ac31d29-118f-40c9-95ec-af40915d9691.png)
+
+
+
+Code:
 
         ShowWeather.aspx is a Home page of web application which takes city or zip code as input and after clicking on "Show Weather" Button it invokes API from             https://openweathermap.org/ to get current weather information
 
