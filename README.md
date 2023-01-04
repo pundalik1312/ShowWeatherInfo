@@ -26,7 +26,7 @@ Enter City name or zip code to get current weather information
 
 
 
-Code:
+#Code:
 
         ShowWeather.aspx is a Home page of web application which takes city or zip code as input and after clicking on "Show Weather" Button it invokes API from             https://openweathermap.org/ to get current weather information
 
@@ -66,14 +66,14 @@ Code:
   
   #Dev-Ops Pipeline:
   
-          CI/CD pipeline created using azure dev-ops portal.
-          Portal URL: https://dev.azure.com/WeatherDisplay/ShowWeather/_build?definitionId=5
+  CI/CD pipeline created using azure dev-ops portal.
+  Portal URL: https://dev.azure.com/WeatherDisplay/ShowWeather/_build?definitionId=5
 
-          “ShowWeather-Azure Web App for ASP.NET-CI” pipe line is created to push data on azure web app after committing code in GIT repository.
+  “ShowWeather-Azure Web App for ASP.NET-CI” pipe line is created to push data on azure web app after committing code in GIT repository.
 
-          ![image](https://user-images.githubusercontent.com/47704111/210598310-beb8d55b-ae1d-418a-84ef-28b9e9cb01fa.png)
+  ![image](https://user-images.githubusercontent.com/47704111/210598310-beb8d55b-ae1d-418a-84ef-28b9e9cb01fa.png)
 
-          ![image](https://user-images.githubusercontent.com/47704111/210598764-e767f673-0939-492c-a26f-b827b14d6d79.png)
+  ![image](https://user-images.githubusercontent.com/47704111/210598764-e767f673-0939-492c-a26f-b827b14d6d79.png)
 
 
   
