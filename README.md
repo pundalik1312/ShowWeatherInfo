@@ -18,9 +18,12 @@
 
         Enter City name or zip code to get current weather information 
 
-        ![image](https://user-images.githubusercontent.com/47704111/210597400-ac5fb0d7-155f-4cdd-8e25-0887fd8ef430.png)
+        ![image](https://user-images.githubusercontent.com/47704111/210601813-9e102adc-27e4-4042-8408-4f5ca074e80c.png)
 
-        ![image](https://user-images.githubusercontent.com/47704111/210597535-7766d263-b566-45b8-bca9-63a95bdd28c4.png)
+       
+
+        ![image](https://user-images.githubusercontent.com/47704111/210601586-9ac31d29-118f-40c9-95ec-af40915d9691.png)
+
 
 
 #Code:
