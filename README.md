@@ -1,11 +1,11 @@
 # ShowWeatherInfo
 
-Technology: C#. net, Asp.net web forms 
-Hosted on : Azure web app
-Dev-ops pipeline: Azure dev-ops
-Weather API: https://openweathermap.org/
-Code Repository: Git Hub
-Demo Web site: https://showweather.azurewebsites.net/
+•	Technology: C#. net, Asp.net web forms 
+•	Hosted on : Azure web app
+•	Dev-ops pipeline: Azure dev-ops
+•	Weather API: https://openweathermap.org/
+•	Code Repository: Git Hub
+•	Demo Web site: https://showweather.azurewebsites.net/
 
 Browse https://showweather.azurewebsites.net/
 ![image](https://user-images.githubusercontent.com/47704111/210596975-e865ce80-85f3-463b-9669-6ce55eef25eb.png)
@@ -22,9 +22,9 @@ ShowWeather.aspx is a Home page of web application which takes city or zip code 
 
 API: http://api.openweathermap.org/data/2.5/weather
 Parameter: 
-     q : is to invoke weather info as per city name 
-   zip : is to invoke weather info as per Zip code 
- APPID : Security token to authenticate API
+•	q : is to invoke weather info as per city name 
+•	zip : is to invoke weather info as per Zip code 
+•	APPID : Security token to authenticate API
  
  JSON Receiving after invoke:
         ********************//  
